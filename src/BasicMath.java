@@ -6,6 +6,10 @@ class BasicMath
         return a + b;
     }
 
+    public double divide(int a, int b) {
+        return (double)((double) a / (double) b);
+    }
+
     // TODO: subtract
 	// TODO: multiply
 	// TODO: divide
