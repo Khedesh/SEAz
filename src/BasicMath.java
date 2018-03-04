@@ -13,6 +13,8 @@ class BasicMath
 	public int  multiply (int a , int b){
 		return a*b;
 	}
-	// TODO: divide
+    public double divide(int a, int b) {
+        return (double)((double) a / (double) b);
+    }
 
 }
